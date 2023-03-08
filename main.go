@@ -1,8 +1,7 @@
-package my
 package mylogger
 
 import "log"
 
-func LogInfo(message String) {
-	log.Printf("INFO - %v", message  )
+func LogInfo(message string) {
+	log.Printf("INFO - %v", message)
 }
